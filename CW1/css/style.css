@@ -5,7 +5,7 @@ h1 {
   down: 20px;
   word-spacing: 10px;
 }
-
+/*Allows for the elements wrapped inside of the 'same' element to be styled the same.*/ 
 .same {
   display: inline-block;
   text-align: center;
@@ -165,7 +165,6 @@ img{
   margin: auto;
   padding: 30px;
   align: center;
-  width: 1130px;
 }
 
 h2 {
@@ -174,9 +173,11 @@ h2 {
 }
 
 video {
-  width: 1180px;
-  padding: 15px
+  max-width: 100%;
+  max-height: 100%;
+  padding: 15px;
 }
+
 
 footer {
   background-color: black;

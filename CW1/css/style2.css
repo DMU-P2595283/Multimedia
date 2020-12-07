@@ -161,7 +161,26 @@ h1 {
   background-color: black;
   color: white;
 }
-
+/*Allows for text to be centerally aligned*/
 p {
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 5px;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+footer {
+  background-color: black;
+  box-shadow: 5px 5px 5px #ffffff;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-style: outset;
+  margin-top: 25%;
 }
